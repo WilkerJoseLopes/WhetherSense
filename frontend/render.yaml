@@ -1,1 +1,6 @@
-
+services:
+  - type: web
+    name: weathersense-frontend
+    env: static
+    rootDir: frontend
+    staticPublishPath: .
