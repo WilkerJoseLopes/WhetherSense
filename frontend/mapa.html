@@ -1,1 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherSense - Mapa</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>WeatherSense - Mapa</h1>
+  </header>
 
+  <main>
+    <div class="card">
+      <div id="map" style="width:100%;height:400px;"></div>
+    </div>
+  </main>
+
+  <script>
+    function initMap() {
+      const lisboa = { lat: 38.7167, lng: -9.1333 };
+      const map = new google.maps.Map(document.getElementById("map"), {
+        zoom: 8,
+        center: lisboa
+      });
+
+      new google.maps.Marker({
+        position: lisboa,
+        map: map
+      });
+    }
+  </script>
+
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=COLOCA_AQUI_A_TUA_CHAVE&callback=initMap"></script>
+</body>
+</html>
