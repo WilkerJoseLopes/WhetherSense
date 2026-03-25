@@ -1,1 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherSense - Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>WeatherSense</h1>
+  </header>
 
+  <main>
+    <div class="card">
+      <h2>Condições atuais</h2>
+      <pre id="weatherBox">A carregar...</pre>
+    </div>
+
+    <div class="card">
+      <h2>Resumo</h2>
+      <pre id="summaryBox">A carregar...</pre>
+    </div>
+
+    <div class="card">
+      <a href="mapa.html">Abrir mapa</a>
+    </div>
+  </main>
+
+  <script src="api.js"></script>
+  <script src="dashboard.js"></script>
+</body>
+</html>
