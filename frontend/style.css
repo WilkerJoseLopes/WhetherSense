@@ -1,1 +1,35 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f5f7fb;
+  color: #0f172a;
+}
 
+header {
+  background: #2563eb;
+  color: white;
+  padding: 16px 24px;
+}
+
+main {
+  padding: 24px;
+}
+
+.card {
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+button, input {
+  padding: 12px;
+  margin-bottom: 12px;
+  width: 100%;
+  max-width: 420px;
+}
+
+pre {
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
