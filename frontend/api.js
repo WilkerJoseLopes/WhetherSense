@@ -1,4 +1,4 @@
-const API_BASE = "https://weathersense-backend.onrender.com/api/v1";
+const API_BASE = "https://whethersense.onrender.com/api/v1";
 
 async function getJson(url) {
   const response = await fetch(url);
